@@ -13,8 +13,10 @@ public class Validation {
 		Random randomMaker = new Random();
 		
 		int randomNumber = randomMaker.nextInt(5);
+		if (randomChoice == 1) {
+			
 		
-		System.out.println(randomNumber);
+		System.out.println(randomNumber == );
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
 

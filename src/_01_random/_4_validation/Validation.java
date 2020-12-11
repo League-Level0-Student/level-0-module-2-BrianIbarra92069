@@ -12,11 +12,18 @@ public class Validation {
 		
 		Random randomMaker = new Random();
 		
-		int randomNumber = randomMaker.nextInt(5);
-		if (randomChoice == 1) {
-			
-		
-		System.out.println(randomNumber == );
+		int randomNumber = randomMaker.nextInt(5)+1;
+		if (randomNumber == 1) 
+		JOptionPane.showMessageDialog(null, "Great Work"); 
+		if (randomNumber == 2)
+		JOptionPane.showMessageDialog(null, "Y0U Did Amazing today");
+		if (randomNumber == 3)
+		JOptionPane.showMessageDialog(null, "You Did It");
+		if (randomNumber == 4)
+		JOptionPane.showMessageDialog(null, "Never Give Up");
+		if (randomNumber == 5)
+		JOptionPane.showMessageDialog(null, "Break a Leg");
+		System.out.println(randomNumber == 5 );
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
 

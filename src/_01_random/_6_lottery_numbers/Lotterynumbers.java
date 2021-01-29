@@ -10,7 +10,9 @@ public static void main(String[] args) {
 	
 	
 	int randomSystem = randomNumber.nextInt(7);
-	
+	int randomMessage = randomNumber.nextInt(7);
+	int randomMail = randomNumber.nextInt(7);
+	int random
 	
 	
 	

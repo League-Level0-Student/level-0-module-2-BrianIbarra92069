@@ -17,9 +17,9 @@ public class StringsCannotAdd {
 		JOptionPane.showMessageDialog(null,fourAsString + sixAsString + fiveAsString);
 		 int fourAsInt = Integer.parseInt(fourAsString);
 		 int sixAsInt = Integer.parseInt(sixAsString);
-		
-		
-		
+		JOptionPane.showMessageDialog(null, fourAsInt + sixAsInt);
+		int fiveAsInt = Integer.parseInt(fiveAsString);
+		JOptionPane.showMessageDialog(null, fourAsInt + sixAsInt + fiveAsInt);
 		}
 			// 2) Ask the user to enter number 4 and hold it in the variable fourAsString 
 			

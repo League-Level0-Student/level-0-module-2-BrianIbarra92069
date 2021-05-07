@@ -5,7 +5,9 @@ import javax.swing.JOptionPane;
 public class RollerCoaster {
 
 	// 1) Make a main method that includes all the steps below…. 
-		
+		public static void main(String[] args) {
+			
+		String Howtallareyou = JOptionPane.showInputDialog(Please enter you Height)
 		// 2) Ask the user to enter their height in inches using JOptionPane and set it to the variable heightToRide
 		
 		// Uncomment the line below...
@@ -22,4 +24,16 @@ public class RollerCoaster {
 		// "You can ride the coaster with someone else!" 
 	
 		// 6) else print: "You must be at least 42 inches tall to ride the roller coaster pal!"
-} 
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+}
